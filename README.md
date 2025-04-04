@@ -38,9 +38,11 @@ To uninstall Carillon, remove the following files from your system:
 ————————
 
 /usr/bin/afplay
+
 afplay is an audio playback library for Rust, based on the psst.core audio playback implementation.
 
 ThrottleInterval: 2
+
 StartInterval means that the program should be started after x seconds (more or less precisely). macOS Sonoma o macOS Sequoia
 
 ————————
