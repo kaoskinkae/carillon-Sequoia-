@@ -28,10 +28,10 @@ To uninstall Carillon, remove the following files from your system:
 
 
 NOTES
-•	This should work for everyone using USB audio adapters and/or AppleHDA.kext for the sound. If you're using another kext to get your sound working, please let me know.
-•	To edit the Package installer, you need PackageManager, which comes in the Auxiliary Tools bundle, which you can download here PlistEdit Pro
-•	While this should work just fine on a real Mac, I would not suggest installing it on one.
-•	I'm aware that "chime" doesn't exactly classify as "carillon", but I liked the name, so deal with it.
+This should work for everyone using USB audio adapters and/or AppleHDA.kext for the sound. If you're using another kext to get your sound working, please let me know.
+To edit the Package installer, you need PackageManager, which comes in the Auxiliary Tools bundle, which you can download here PlistEdit Pro
+While this should work just fine on a real Mac, I would not suggest installing it on one.
+I'm aware that "chime" doesn't exactly classify as "carillon", but I liked the name, so deal with it.
 
 
 
