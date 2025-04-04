@@ -25,7 +25,13 @@ To uninstall Carillon, remove the following files from your system:
 
 /System/Library/LaunchDaemons/com.hackintosh.sound.plist
 /usr/local/bin/Chime.aiff
+-----------
+/usr/bin/afplay
+afplay is an audio playback library for Rust, based on the psst.core audio playback implementation.
 
+ThrottleInterval: 2
+StartInterval means that the program should be started after x seconds (more or less precisely). macOS Sonoma o macOS Sequoia
+------------
 
 NOTES
 This should work for everyone using USB audio adapters and/or AppleHDA.kext for the sound. If you're using another kext to get your sound working, please let me know.
