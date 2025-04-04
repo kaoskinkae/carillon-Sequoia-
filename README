@@ -27,10 +27,6 @@ To uninstall Carillon, remove the following files from your system:
 •	/System/Library/Sounds/Chime.aiff.
 
 
-
-
-
-
 NOTES
 •	This should work for everyone using USB audio adapters and/or AppleHDA.kext for the sound. If you're using another kext to get your sound working, please let me know.
 •	To edit the Package installer, you need PackageManager, which comes in the Auxiliary Tools bundle, which you can download here PlistEdit Pro
