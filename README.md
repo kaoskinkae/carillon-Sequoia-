@@ -25,8 +25,8 @@ sudo chown root:wheel /Library/LaunchDaemons/com.hackintosh.sound.plist
 UNINSTALL
 To uninstall Carillon, remove the following files from your system:
 
-	•	/System/Library/LaunchDaemons/com.hackintosh.sound.plist
-	•	/System/Library/Sounds/Chime.aiff.
+/System/Library/LaunchDaemons/com.hackintosh.sound.plist
+/System/Library/Sounds/Chime.aiff.
 
 ————————
 /usr/bin/afplay
