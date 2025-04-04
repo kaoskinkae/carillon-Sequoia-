@@ -16,12 +16,14 @@ killall Finder
 MANUAL INSTALLATION
 
 /System/Library/LaunchDaemons/com.hackintosh.sound.plist
+
 /System/Library/Sounds/
 
 
 MANUAL ACTIVATION
 
 sudo chown root:wheel /usr/local/bin/Chime.aiff
+
 sudo chown root:wheel /Library/LaunchDaemons/com.hackintosh.sound.plist
 
 
@@ -30,6 +32,7 @@ UNINSTALL
 To uninstall Carillon, remove the following files from your system:
 
 /System/Library/LaunchDaemons/com.hackintosh.sound.plist
+
 /System/Library/Sounds/Chime.aiff.
 
 ————————
