@@ -24,7 +24,7 @@ UNINSTALL
 To uninstall Carillon, remove the following files from your system:
 
 •	/System/Library/LaunchDaemons/com.hackintosh.sound.plist
-•	//usr/local/bin/Chime.aiff
+•	/usr/local/bin/Chime.aiff
 
 
 NOTES
