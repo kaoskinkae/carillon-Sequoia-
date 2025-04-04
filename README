@@ -12,30 +12,26 @@ killall Finder
 defaults write com.apple.Finder AppleShowAllFiles false
 killall Finder
 
-
 MANUAL INSTALLATION
 /System/Library/LaunchDaemons/com.hackintosh.sound.plist
 /System/Library/Sounds/
-
 
 MANUAL ACTIVATION
 sudo chown root:wheel /usr/local/bin/Chime.aiff
 sudo chown root:wheel /Library/LaunchDaemons/com.hackintosh.sound.plist
 
-
 UNINSTALL
 To uninstall Carillon, remove the following files from your system:
 
-	•	/System/Library/LaunchDaemons/com.hackintosh.sound.plist
-	•	/System/Library/Sounds/Chime.aiff.
-
+•	/System/Library/LaunchDaemons/com.hackintosh.sound.plist
+•	/System/Library/Sounds/Chime.aiff.
 
 
 NOTES
-	•	This should work for everyone using USB audio adapters and/or AppleHDA.kext for the sound. If you're using another kext to get your sound working, please let me know.
-	•	To edit the Package installer, you need PackageManager, which comes in the Auxiliary Tools bundle, which you can download here PlistEdit Pro
-	•	While this should work just fine on a real Mac, I would not suggest installing it on one.
-	•	I'm aware that "chime" doesn't exactly classify as "carillon", but I liked the name, so deal with it. ;p
+•	This should work for everyone using USB audio adapters and/or AppleHDA.kext for the sound. If you're using another kext to get your sound working, please let me know.
+•	To edit the Package installer, you need PackageManager, which comes in the Auxiliary Tools bundle, which you can download here PlistEdit Pro
+•	While this should work just fine on a real Mac, I would not suggest installing it on one.
+•	I'm aware that "chime" doesn't exactly classify as "carillon", but I liked the name, so deal with it. ;p
 
 
 
