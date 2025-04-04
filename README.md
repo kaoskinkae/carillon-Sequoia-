@@ -5,6 +5,7 @@ A new launch daemon will be added that triggers the sound, meaning, unlike most 
 It has currently been tested on macOS 15 Sequoia and macOS 14 Sonoma but it should work on previous and future versions as well. Please report any issues you may have.
 
 VIEW HIDDEN MAC FILES
+
 defaults write com.apple.Finder AppleShowAllFiles true
 killall Finder
 
@@ -13,16 +14,19 @@ killall Finder
 
 
 MANUAL INSTALLATION
+
 /System/Library/LaunchDaemons/com.hackintosh.sound.plist
 /System/Library/Sounds/
 
 
 MANUAL ACTIVATION
+
 sudo chown root:wheel /usr/local/bin/Chime.aiff
 sudo chown root:wheel /Library/LaunchDaemons/com.hackintosh.sound.plist
 
 
 UNINSTALL
+
 To uninstall Carillon, remove the following files from your system:
 
 /System/Library/LaunchDaemons/com.hackintosh.sound.plist
