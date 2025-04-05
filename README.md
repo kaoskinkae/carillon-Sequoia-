@@ -35,6 +35,9 @@ To uninstall Carillon, remove the following files from your system:
 
 /System/Library/Sounds/Chime.aiff.
 
+![Captura de pantalla 2025-04-05 a las 10 52 17](https://github.com/user-attachments/assets/f96706be-0192-4985-8920-08d1dda7a5e7)
+
+
 ————————
 
 /usr/bin/afplay
